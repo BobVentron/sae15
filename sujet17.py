@@ -1,7 +1,6 @@
 import csv
 
-def mainsujet17() -> None : 
-    src = "data/fr-en-ecoles-effectifs-nb_classes.csv"
+def mainsujet17(src) -> None : 
     with open(src, encoding='utf-8') as file :
         CommunesNaissance = ["ROMANS-SUR-ISERE", "VOIRON", "CELLIEU"]
         lignesEcole= csv.reader(file, delimiter=';')
