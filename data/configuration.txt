@@ -1,0 +1,52 @@
+#----------------------
+# Etudiants du groupe:
+# Attention lors de l'éval terminale le nombre et les noms (et infos associées) peuvent changer !
+# format : nom : prénom : login : date de naissance : code postal : ville : code INSEE commune : sujet
+etudiant : Lane : Lily : lanel : 12/09/2005 : 38150 : Roussillon : 38344 : sujet 2
+etudiant : Roux : Fabien : rouxfab : 30/04/2004 : 26100 : Romans-sur-Isère : 26281 : sujet 9
+etudiant : Anghour : Yannis : anghoury : 26/06/2005 : 26000 : Valence : 26362 : sujet 15
+etudiant : Soleilhac : Bastien : soleilhb : 22/06/2004 : 42320 : Cellieu : 42032 : sujet 17
+etudiant : Hauersperger : Louis : hauerspl : 16/11/2005 : 38500 : Voiron : 38563 : sujet 18
+
+#----------------------
+# informations sur les fichiers "moodle" :
+# Attention cela dépend de l'évaluation et peut varier lors de l'éval pratique
+# métadonnées des fichiers :
+#	fichier de notes : nom prénom durée mise pour l’épreuve noteQuestion1 noteQuestion2 … notesQuestionN
+#	fichier de réponses : nom prénom libellé question1 réponse question1 libellé question2 réponse question2 … libellé question N réponse question N.
+#----------------------
+titre : Eval théorique R107 bricolée
+notes : eval2_2023.csv
+reponses : eval2_reponses.xlsx
+notemax :  1.36 0.91 0.45 0.45 0.45 0.91 0.68 0.68 0.45 0.45 0.45 0.45 0.45 0.45 0.45 1.36 0.45 0.45 0.68 0.45
+noUsableQuest : 1 2 6 7 19
+noUsableReps : 1 2 6 7 19
+#----------------------
+# informations sur les fichiers de "données" : ci-dessous le nom du fichier
+# Attention cela dépend de l'évaluation et peut varier lors de l'éval pratique
+# les fichiers seront tous dans un même répertoire (actuellement sur mon intranet)
+# A priori, je zippe le fichier pour gagner de la place, normalement le nom du fichier "zip"
+# correspondra au nom du fichier "csv", sauf indication contraire et sauf coquille de ma part.
+# NB : si vous maîtrisez votre sujet, vous serez capable d'indentifier et de corriger en live... 
+
+répertoire : opendata
+sujet_1 : connexions.zip
+sujet_2 : trace.zip
+sujet_3 : deces-2021.zip
+sujet_4 : covid-hospit-2023.zip
+sujet_5 : MDB-INSEE-V2.zip
+sujet_6 : 2023-08.zip
+sujet_7 : prix-carburants-fichier-instantane.zip
+sujet_8 : Presidentielle_2017_Resultats_Tour_1_c.csv
+sujet_9 : conso-elec-gaz-annuelle-par-secteur-dactivite-agregee-commune.zip
+sujet_10 : dpae-par-departement-x-grand-secteur.zip
+sujet_11 : etablissements-et-effectifs-salaries.zip
+sujet_12 : effectifs-salaries-et-masse-salariale-du-secteur-prive-par-departement.zip
+sujet_13 : accidentsVelo.zip
+sujet_14 : structures_Auvergne-Rhône-Alpes.zip
+sujet_15 : onde_france_2022.zip
+sujet_16 : resultat-des-lycees-denseignement-general-et-technologique.zip
+sujet_17 : ecoles-effectifs-nb_classes.zip
+sujet_18 : pred-app3-mef-dhup.zip
+sujet_19 : Liste-des-autorisations-durbanisme-creant-des-logements2023-10.zip
+sujet_20 : caracteristiques-2022.zip

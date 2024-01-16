@@ -1,0 +1,27 @@
+/*imporation des polices*/
+@font-face {
+    font-family: 'BMPlexSans';
+    src: url('../medias/fonts/IBMPlexSans-Regular.ttf') format('truetype');
+}
+
+footer {
+    display: flex;
+    background-color: #009ddc;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-top: 2%;
+}
+
+footer div {
+    margin: auto;
+    font-family: 'BMPlexSans';
+    font-size: larger;
+    color: black;
+}
+
+@media screen and (max-width: 700px){
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+}
